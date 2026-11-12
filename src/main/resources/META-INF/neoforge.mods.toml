@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "angelofdeathwings"
+version = "1.0.0"
+displayName = "Wings of the Angel of Death"
+authors = "Angel of Death Wings"
+description = '''
+Wearable black-and-white angel wings: unbreakable, +3 armor, full elytra gliding anywhere,
+and a B-key "White Hole" boost with a pure-white trail.
+'''
+
+[[dependencies.angelofdeathwings]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.angelofdeathwings]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
